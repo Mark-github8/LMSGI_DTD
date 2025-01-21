@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<cataleg>
+    <llista_actors>
+        <actor ID = "24">
+            <nom>Jorge cluny</nom>
+            <edat>60</edat>
+        </actor>
+        <actor ID = "23">        
+            <nom>Joney Cage</nom>
+        </actor>        
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula ID = "236543">
+            <titol idioma = "Ingles">Titanic</titol>   
+            <director>Jon Doe</director>
+            <any>1995</any>
+            <actor ref="24">Jorge cluny</actor>
+        <pelicula>
+        <pelicula ID = "99">
+            <titol idioma "español"> Super Pepe</titol>   
+            <director>Mr. Ligma</director>
+            <any>2015</any>
+            <actor ref "23">Joney Cage</actor>
+        <pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref= "236543"/>
+        <recomanacio ref= "99"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
